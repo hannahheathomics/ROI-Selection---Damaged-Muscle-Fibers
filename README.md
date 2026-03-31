@@ -26,9 +26,4 @@ Crops square ROIs from fluorescence muscle cross-section images for cross-sectio
 
 ## Troubleshooting
 
-Individual images can be re-run with adjusted parameters to correct for common failure cases:
-
-| Problem | Fix |
-|---|---|
-| Nerve/connective tissue fragment outscoring muscle | Blue-channel exclusion mask |
-| Excess background included in ROI | Stricter tissue threshold + larger edge margin |
+Individual images can be re-run with adjusted parameters to correct for common failure cases, such as excess background inclusion or non-muscle-fiber inclusion.
